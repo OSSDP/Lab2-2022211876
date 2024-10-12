@@ -50,7 +50,7 @@ import java.util.PriorityQueue;
 public class Solution7 {
 
     public String smallestStringWithSwaps(String s, List<List<Integer>> pairs) {
-
+    // 如果交换对的数量小于等于1，直接返回原字符串
         if (pairs.size() <= 1) {
             return s;
         }
