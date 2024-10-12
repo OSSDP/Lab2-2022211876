@@ -123,7 +123,7 @@ public class Solution7 {
             if (x != parent[x]) {
                 parent[x] = find(parent[x]);
             }
-            return parent[x];
+            return parent[x];// 返回x所在连通分量的代表元
         }
     }
 }
